@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Manuel&#39;s Blogosphere</title>
+    <link>/authors/</link>
+    <description>Recent content in Authors on Manuel&#39;s Blogosphere</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 21 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/authors/mschoenlaub/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/mschoenlaub/</guid>
+      <description>I am a Vienna-based Backend Developer from Austria with a background in data and knowledge engineering. Professionally I am currently working in the R&amp;amp;D team of Anexia, mainly using Golang and Python to get things done in the area of server virtualization . My extra-professional interests include tinkering with MongoDB, reversing communication protocols and gardening.</description>
+    </item>
+    
+  </channel>
+</rss>
