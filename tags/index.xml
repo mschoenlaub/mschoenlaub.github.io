@@ -13,6 +13,33 @@
     
     
     <item>
+      <title>ci</title>
+      <link>/tags/ci/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>circleci</title>
+      <link>/tags/circleci/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/circleci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>continous-integration</title>
+      <link>/tags/continous-integration/</link>
+      <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/continous-integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>corona</title>
       <link>/tags/corona/</link>
       <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
