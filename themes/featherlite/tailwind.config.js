@@ -89,8 +89,8 @@ module.exports = {
       },
       keyframes: (theme) => ({
         blink: {
-          "0%, 100%": { color: "transparent" },
-          "50%": { color: theme("colors.accent.500") },
+          "0%, 100%": { opacity: 0 },
+          "50%": { opacity: 1 },
         },
         bounce: {
           "0%, 100%": {
