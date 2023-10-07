@@ -20,9 +20,9 @@ module.exports = {
         a4: "64.609375rem",
       },
       fontFamily: {
-        headline: ["Fira Sans", ...defaultTheme.fontFamily.sans],
-        body: ["Merriweather", ...defaultTheme.fontFamily.sans],
-        mono: ["Fira Code", ...defaultTheme.fontFamily.mono],
+        headline: ["Fira Sans", ...fontFamily.sans],
+        body: ["Merriweather", ...fontFamily.sans],
+        mono: ["Fira Code", ...fontFamily.mono],
       },
       typography: (theme) => ({
         DEFAULT: {
