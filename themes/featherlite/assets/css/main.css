@@ -1,0 +1,12 @@
+@import "@fontsource/fira-sans";
+@import "@fontsource/fira-code";
+@import "@fontsource/merriweather";
+
+@import "assets/css/base.css";
+
+@import "assets/css/syntax.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;

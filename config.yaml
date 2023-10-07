@@ -1,0 +1,72 @@
+baseUrl: https://blog.schoenlaub.info
+DefaultContentLanguage: en
+title: Manuel Schönlaub
+enableRobotsTXT: true
+pluralizeListTitles: false
+
+theme: featherlite
+
+taxonomies:
+  tag: tags
+
+paginate: 3
+
+menu:
+  social:
+    - identifier: github
+      name: github
+      url: "https://github.com/mschoenlaub"
+      weight: 1
+    - identifier: linkedin
+      name: linkedin
+      url: "https://www.linkedin.com/mschoenlaub"
+      weight: 3
+    - identifier: rss
+      name: rss
+      weight: 5
+
+markup:
+  highlight:
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: false
+    noHl: false
+    style: dracula
+    tabWidth: 2
+
+params:
+  themeColor: "#000000"
+  titleImage: img/profile.jpg
+  headerTitle: mschoenlaub@blog:~$
+  indieweb:
+    authorizationEndpoint: "https://indieauth.com/auth"
+    tokenEndpoint: "https://tokens.indieauth.com/token"
+  webmention:
+    webmentionUrl: "https://webmention.io"
+    webmentionEndpoint: "/webmention"
+
+permalinks:
+  posts: "/:year/:month/:slug/"
+  blog: "/:year/:month/:slug/"
+  note: "/:year/:month/:day/:filename/"
+  page: "/:slug/"
+
+module:
+  mounts:
+    - source: "assets"
+      target: "assets"
+    - source: "./node_modules/feather-icons/dist/icons"
+      target: "assets/icons/feather"
+    - source: "./node_modules/@fontsource/"
+      target: "assets/sass/@fontsource"
+    - source: "./node_modules/@fontsource/fira-sans/files"
+      target: "static/css/files/"
+    - source: "./node_modules/@fontsource/fira-code/files"
+      target: "static/css/files/"
+    - source: "./node_modules/@fontsource/merriweather/files"
+      target: "static/css/files/"

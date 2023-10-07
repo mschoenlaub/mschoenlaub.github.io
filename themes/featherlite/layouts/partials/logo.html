@@ -1,0 +1,12 @@
+<picture>
+  <source type="image/webp" srcset="{{ (.Resize "200x200 webp").RelPermalink }}" />
+  <source type="{{ .MediaType }}" srcset="{{ (.Resize "200x200").RelPermalink }}" />
+  <img
+    class="mx-auto mb-2 rounded-full h-48 w-48 object-cover border border-gray-200"
+    decoding="async"
+    loading="lazy"
+    src="{{ .RelPermalink }}"
+    alt="{{ site.Params.author }}"
+    title="{{ .Title }}"
+    alt="{{ site.Params.author }}" />
+</picture>

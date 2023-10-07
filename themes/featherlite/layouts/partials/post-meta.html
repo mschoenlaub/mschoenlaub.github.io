@@ -1,0 +1,12 @@
+<p class="post-meta">
+  <time class="post-date" datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+    {{ .PublishDate.Format "January 2, 2006" }}
+  </time>
+  {{ if .GetTerms "tags" }}
+    &middot; Tagged with
+    {{ range $k, $v := .GetTerms "tags" }}
+      {{- if $k }},{{ end }}
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    {{- end }}
+  {{ end }}
+</p>

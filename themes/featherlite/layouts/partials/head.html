@@ -1,0 +1,62 @@
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="{{ .Params.ThemeColor }}" />
+<meta name="author" content="{{ .Site.Author.Name }}" />
+<meta
+  name="description"
+  content="{{ if .IsHome }}
+    {{ $.Site.Params.description }}
+  {{ else }}
+    {{ .Description }}
+  {{ end }}" />
+{{ $scrollJs := resources.Get "js/scroll.js" | js.Build  | minify | fingerprint }}
+<script src="{{ $scrollJs.RelPermalink }}" integrity="{{ $scrollJs.Data.Integrity }}" async defer></script>
+
+<link rel="canonical" href="{{ .Permalink }}" />
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}" />
+
+{{ if .IsTranslated }}
+  {{ range .Translations }}
+    <link
+      rel="alternate"
+      hreflang="{{ .Language.Lang }}"
+      href="{{ .Permalink }}"
+      title="{{ .Language.LanguageName }}" />
+  {{ end }}
+{{ end }}
+
+{{ range .AlternativeOutputFormats -}}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+{{ $style := resources.Get "css/main.css" | resources.PostCSS | resources.PostProcess }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" />
+
+{{ template "partials/favicons.html" . }}
+
+{{ with .Site.Params.indieweb }}
+  <link rel="authorization_endpoint" href="{{ .authorizationEndpoint | default "https://indieauth.com/auth" }}" />
+  <link rel="token_endpoint" href="{{ .tokenEndpoint | default "https://tokens.indieauth.com/token" }}" />
+{{ end }}
+
+{{ with .Site.Params.webmention }}
+  <link rel="webmention" href="{{ .webmentionUrl }}{{ .webmentionEndpoint }}" />
+  <link rel="pingback" href="{{ .webmentionUrl }}{{ .webmentionPingbackEndpoint }}" />
+{{ end }}
+
+{{ hugo.Generator }}
+
+
+<!-- Schema -->
+{{ template "_internal/schema.html" . }}
+
+
+<!-- Open Graph -->
+{{ template "_internal/opengraph.html" . }}
+
+
+<!-- Twitter -->
+{{ template "_internal/twitter_cards.html" . }}
+
+
+<!-- Google Analytics -->
+{{ template "_internal/google_analytics.html" . }}
