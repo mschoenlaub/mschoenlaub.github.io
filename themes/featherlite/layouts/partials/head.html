@@ -10,7 +10,7 @@
     {{ .Description }}
   {{ end }}" />
 {{ $scrollJs := resources.Get "js/scroll.js" | js.Build  | minify | fingerprint }}
-<script src="{{ $scrollJs.RelPermalink }}" integrity="{{ $scrollJs.Data.Integrity }}" async defer></script>
+<script src="{{ $scrollJs.RelPermalink }}" integrity="{{ $scrollJs.Data.Integrity }}" defer></script>
 
 <link rel="canonical" href="{{ .Permalink }}" />
 <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}" />
