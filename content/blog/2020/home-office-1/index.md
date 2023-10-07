@@ -15,7 +15,8 @@ In an effort to slow down the spread of COVID19, governments all across the worl
 curtailing public life, closing borders and in some cases even enforcing home isolation.
 While the future will show how effective these measures are, the most immediate consequence
 is that businesses and employees must now face the challenge - and recognize the chances - of temporary home office.
-<!--more--> 
+
+<!--more-->
 
 Switching all of a sudden from a traditional, potentially colocated office setting, to
 home-office is a challenge for everybody; the employer, the employee and the customer.
@@ -29,9 +30,9 @@ In this series I want to write about some of the aspects that need special care 
 > \- George Bernard Shaw
 
 Whether it is about onboarding new teammates or tackling new projects  
-*Communication is key in teamwork.*
+_Communication is key in teamwork._
 
-In traditional workplace settings well-organized meetings play an important role  in keeping all the team on the
+In traditional workplace settings well-organized meetings play an important role in keeping all the team on the
 same page and organize the efforts of every individual.
 Important ingredients for a successful meetings are _preparation_, _participation_ and the _protocol_.
 And more often than not we do not exactly get all three parts perfectly right, even in a traditional workplace setting.
@@ -41,7 +42,7 @@ Exactly these informal, incidental "meetings" that happen so naturally in a trad
 not happening automagically in a virtual environment.
 
 > Virtual team projects exhibited notably more risk due to insufficient knowledge transfer.
-> A plausible explanation is decreased implicit  or informal knowledge transfer in virtual environments.
+> A plausible explanation is decreased implicit or informal knowledge transfer in virtual environments.
 
 A [study](https://doi.org/10.1016/j.ijproman.2009.08.002) from 2010 indicates that knowledge transfer between virtual
 team members suffers greatly, mostly because less knowledge is shared implicitly compared to the co-located setting.
@@ -50,10 +51,11 @@ When remote workers have a game plan for how to best get in touch with teammates
 and missed connections.
 
 ## Slack - Where work happens (or not?)
+
 Groupware, like [_Slack_](www.slack.com) and [_Mattermost_](www.mattermost.com) can provide efficient means to help you
 to reduce communication issues. You can create team-internal channels, task-specific channels and even integrate a ton of
 third-party systems from your favorite issue tracking system to birthday reminders.
-However, overusing them - or specifically their instant messaging features  - might open the doors for
+However, overusing them - or specifically their instant messaging features - might open the doors for
 having a workday-long ["Franken-meeting"](https://medium.com/better-people/slack-i-m-breaking-up-with-you-54600ace03ea)
 essentially killing your productivity and shattering your attention to tiny pieces.
 Mitigating the communication overwhelm is quite simple: Give each tool or platform a specific purpose.
@@ -62,6 +64,7 @@ for instance, designate Skype for live chatting on urgent topics and Slack for m
 with a designated channel for fun or informal conversations.
 
 ## If I can't see you, you can't see me
+
 One important aspect of communication in co-located teams is the fact that it is normally face-to-face.
 Setting aside the withered indoor plant that might happen to be between you and your teammate for a moment,
 you cam make eye-contact when talking to your colleagues.
