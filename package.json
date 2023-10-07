@@ -1,0 +1,42 @@
+{
+  "comments": {
+    "dependencies": {},
+    "devDependencies": {
+      "@csstools/normalize.css": "featherlite",
+      "@fontsource/fira-code": "featherlite",
+      "@fontsource/fira-sans": "featherlite",
+      "@fontsource/merriweather": "featherlite",
+      "@tailwindcss/aspect-ratio": "featherlite",
+      "@tailwindcss/line-clamp": "featherlite",
+      "@tailwindcss/typography": "featherlite",
+      "autoprefixer": "featherlite",
+      "feather-icons": "featherlite",
+      "postcss": "featherlite",
+      "postcss-cli": "featherlite",
+      "postcss-import": "featherlite",
+      "prettier": "featherlite",
+      "prettier-plugin-go-template": "featherlite",
+      "tailwindcss": "featherlite"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@csstools/normalize.css": "12.0.0",
+    "@fontsource/fira-code": "5.0.5",
+    "@fontsource/fira-sans": "5.0.5",
+    "@fontsource/merriweather": "5.0.0",
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "@tailwindcss/line-clamp": "^0.2.0",
+    "@tailwindcss/typography": "^0.5.0",
+    "autoprefixer": "^10.4.14",
+    "feather-icons": "4.29.0",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-go-template": "^0.0.15",
+    "tailwindcss": "^3.3.2"
+  },
+  "name": "mschoenlaub.github.io",
+  "version": "0.1.0"
+}

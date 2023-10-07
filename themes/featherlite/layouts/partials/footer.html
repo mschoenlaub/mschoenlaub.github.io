@@ -1,0 +1,15 @@
+<footer class="bottom-0 w-full bg-gray-200 dark:bg-black p-4 text-xs text-center text-gray-700 dark:text-gray-200">
+  <p>
+    made with
+    <a href="https://gohugo.io" class="underline hover:text-accent-400">Hugo</a>
+    and
+    <a href="https://tailwindcss.com" class="underline hover:text-accent-400">TailwindCSS</a>
+  </p>
+  <p class="footer-copyright">
+    {{ (replace .Site.Params.footerCopyrightText "{year}" (string (now.Format "2006"))) | markdownify }}
+  </p>
+  <div class="hidden"></div>
+  {{ if isset .Site.Params "hcard" }}
+    {{ partial "hcard.html" . }}
+  {{ end }}
+</footer>
